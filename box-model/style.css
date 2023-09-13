@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	/*
+  Très important afin de pouvoir "prédire"
+  la taille des éléments crées 
+  */
+}
+
+.container {
+	border: 1px solid black;
+}
+
+.box {
+	background: dodgerblue;
+	width: 200px;
+	aspect-ratio: 1;
+	/* margin-top: 20px;
+	margin-left: 80px; */
+	/* On peut modifier les differentes margin en 
+  respectant l'ordre des aiguilles d'une montre */
+	/* margin: 20px 0px 40px 10px; */
+	margin: 20px 40px;
+	padding: 50px;
+	border: 8px ridge brown;
+	/* border-radius: 50%; */
+	/* margin: 20px 8000px 40px; */
+}
